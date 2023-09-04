@@ -17,7 +17,7 @@ class CensorWords
      * @var array
      */
     private $whiteList = [];
-    private $replacer = '*';
+    private $replacer = '*'; //add replacer to global
 
     /**
      * @var string
